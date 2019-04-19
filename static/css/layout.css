@@ -101,6 +101,20 @@ article > header address {
     display: inline;
 }
 
+
+sub, sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+sup {
+    top: -.5em;
+}
+sub {
+    bottom: -.25em;
+}
+
 article > header address + time {
     margin-left: 6px;
 }
