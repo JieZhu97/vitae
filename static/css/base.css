@@ -59,6 +59,20 @@
  }
 
 
+div.images_bottom{
+	width: 750px;
+	height: 165px;
+	border: 0px solid saddlebrown;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+p.italic_text{
+    font-style: italic;
+    font-weight: 550;
+}
+
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
